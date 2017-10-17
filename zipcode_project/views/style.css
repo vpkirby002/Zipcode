@@ -1,0 +1,134 @@
+body {
+	margin: 0 auto;
+	background-image: url("https://cdn.pixabay.com/photo/2012/03/02/00/41/background-20862_960_720.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+.login-container{
+	width: 500px;
+	height: 360px;
+	text-align: center;
+	background-color: rgba(52, 73, 94,0.7);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.login-container img{
+	width: 120px;
+	height: 140px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+	border-radius: 50%;
+}
+
+input[type="text"], input[type="password"]{
+	height: 55px;
+	width: 400px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 50px;
+	border: none;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-top: 0px;
+	padding-left: 30px;
+	text-align: center;
+}
+
+.login-form-input::before{
+	content: "\f007";
+	position: absolute;
+	font-family: "FontAwesome";
+	padding-left: 5px;
+	color: black;
+	padding-top: 5px;
+	font-size: 40px;
+
+}
+
+
+.login-form-input:nth-child(2)::before{
+	content: "\f023";
+}
+
+.btn-login{
+	padding: 15px, 30px;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 40px;
+	border: none;
+	background-color: #2ECC71;
+	height: 40px;
+	width: 90px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 25px;
+	margin-bottom: 15px; 
+
+} 
+
+a{
+	color: #fff;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 20px;
+}
+
+
+#login-social-media-icons {
+ margin: auto;
+ width: 15%;
+
+ }
+
+
+
+
+.login-h1{
+	text-align: center;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 40px;
+	color: white;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	top: 0;
+}
+
+.login-h2{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 25px;
+	color: white;
+
+	
+	
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
