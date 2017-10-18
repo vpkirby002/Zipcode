@@ -1,7 +1,7 @@
 /*Beginning of login page css*/
-body {
+#page1 {
 	margin: 0 auto;
-	background-image: url("https://cdn.pixabay.com/photo/2012/03/02/00/41/background-20862_960_720.jpg");
+	background-image: url("http://www.twitrcovers.com/wp-content/uploads/2013/02/Programming-Code-l.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 
@@ -111,30 +111,109 @@ a {
 
 }
 
+
+
 /*This is the end of the login page CSS*/
 
 
+#profile_title {
+	color: white;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 30px;
+	text-align: center;
+
+}
 
 
-/*body .profile-bg{
+#page2 {
 	margin: 0 auto;
-	background-image: url("https://static.pexels.com/photos/97077/pexels-photo-97077.jpeg");
+	background-image: url("http://www.twitrcovers.com/wp-content/uploads/2013/02/Programming-Code-l.jpg");
 	background-repeat: repeat;
 	background-size: 100%;
 
 }
-*/
 
-/*
-body.lupita{
+
+
+
+#page2 .michaelbjordan img {
+	float:right;
+	border-radius: 50%;
+	height:300px;
+	width: 300px;
+}
+
+
+
+#username {
+	color:white;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 30px;
 	float: right;
-	border-radius: 30%;
-	background-image: url("http://www.twitrcovers.com/wp-content/uploads/2013/02/Programming-Code-l.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	margin-bottom: 30px;
+	margin-right: 0px;
+	/*text-align: center;*/
+	/*padding-left: 0px;*/
 
 }
-*/
+
+
+
+#page2 input[type="text"], input[type="topic"], input[type="url"], input[type="description"], input[type="file"] {
+	height: 55px;
+	width: 400px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 30px;
+	border: none;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding-top: 0px;
+	padding-left: 10px;
+	text-align: left;
+
+}
+
+
+
+
+#page2 .profile-form-input {
+	width: 600px;
+	height: 360px;
+	text-align: center;
+	background-color: rgba(52, 73, 94,0.7);
+	border-radius: 40px;
+	/*margin: 0 auto;*/
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	
+}
+
+
+
+#page2 .publish {
+	padding: 45px, 40px;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 40px;
+	border: none;
+	background-color: #2ECC71;
+	height: 40px;
+	width: 90px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 25px;
+	margin-bottom: 15px; 
+	text-align: center;
+
+
+}
+
+
+
+
+
+
 
 
 

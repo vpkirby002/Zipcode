@@ -1,3 +1,4 @@
+/*Beginning of login page css*/
 body {
 	margin: 0 auto;
 	background-image: url("https://cdn.pixabay.com/photo/2012/03/02/00/41/background-20862_960_720.jpg");
@@ -70,7 +71,7 @@ input[type="text"], input[type="password"]{
 
 } 
 
-a{
+a {
 	color: #fff;
 	font-family: 'Saira Extra Condensed', sans-serif;
 	font-size: 20px;
@@ -85,7 +86,7 @@ a{
 
 
 
-
+/*Zip Code Header is .login-h1*/
 .login-h1{
 	text-align: center;
 	font-family: 'Saira Extra Condensed', sans-serif;
@@ -96,6 +97,10 @@ a{
 	top: 0;
 }
 
+
+
+/* login-h2 is blurb about everything the sight encompasses*/
+
 .login-h2{
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -104,24 +109,32 @@ a{
 	font-size: 25px;
 	color: white;
 
-	
-	
-
-
-
 }
 
+/*This is the end of the login page CSS*/
 
 
 
 
+/*body .profile-bg{
+	margin: 0 auto;
+	background-image: url("https://static.pexels.com/photos/97077/pexels-photo-97077.jpeg");
+	background-repeat: repeat;
+	background-size: 100%;
 
+}
+*/
 
+/*
+body.lupita{
+	float: right;
+	border-radius: 30%;
+	background-image: url("http://www.twitrcovers.com/wp-content/uploads/2013/02/Programming-Code-l.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 
-
-
-
-
+}
+*/
 
 
 
